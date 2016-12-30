@@ -1,0 +1,36 @@
+{
+  "name": "todolist-sample",
+  "version": "1.0.0",
+  "description": "sample ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakai-memoru/todolist-sample.git"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "author": "sakai.memoru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakai-memoru/todolist-sample/issues"
+  },
+  "homepage": "https://github.com/sakai-memoru/todolist-sample#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.17.3",
+    "seneca": "^3.2.2",
+    "seneca-web": "^2.0.0",
+    "seneca-web-adapter-express": "^1.0.2",
+    "uuid": "^3.0.1"
+  }
+}
